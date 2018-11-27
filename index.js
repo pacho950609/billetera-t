@@ -46,7 +46,7 @@ mongoUtil.connectToServer( ( err ) =>
         app.use('/api', tasks);
         app.get('*', (req, res) => 
         {
-            res.sendFile(dir.join(__dirname, './../vista/dist/index.html'));
+            res.sendFile(dir.join(__dirname, './dist/index.html'));
         });
         const servidor = http.createServer(app);
         app.listen(port, () => { console.log('Server started on port'+port);} );
