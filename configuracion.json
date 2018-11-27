@@ -1,0 +1,6 @@
+{
+    "puerto":8080,
+    "dbUrl":"ds033046.mlab.com:33046/inalambria",
+    "usuarioDB":"inalambria",
+    "contraseniaDB":"inalambria123"
+}
